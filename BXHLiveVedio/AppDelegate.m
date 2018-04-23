@@ -7,8 +7,11 @@
 //
 
 #import "AppDelegate.h"
+#import "HomeListViewController.h"
 
 @interface AppDelegate ()
+
+@property (nonatomic, strong) HomeListViewController *rootVc;
 
 @end
 
@@ -16,6 +19,11 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    
+    self.window = [[UIWindow alloc] initWithFrame:DEF_SCREENBOUNDS];
+    self.rootVc = [[HomeListViewController alloc] init];
+    self.window.rootViewController = self.rootVc;
+    [self.window makeKeyAndVisible];
     // Override point for customization after application launch.
     return YES;
 }

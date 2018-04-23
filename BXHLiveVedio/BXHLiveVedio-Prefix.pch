@@ -1,0 +1,30 @@
+//
+//  BXHLiveVedio-Prefix.h
+//  BXHLiveVedio
+//
+//  Created by 步晓虎 on 2017/8/29.
+//  Copyright © 2017年 步晓虎. All rights reserved.
+//
+
+#ifndef BXHLiveVedio_Prefix_h
+#define BXHLiveVedio_Prefix_h
+#ifdef __OBJC__
+
+#import "Define.h"
+#import "ColorMap.h"
+#import "FontMap.h"
+#import "InterfaceMap.h"
+
+#import "ReactiveCocoa.h"
+#import "SDAutoLayout.h"
+#import "LFLiveKit.h"
+#import "BXHCategoryHeader.h"
+#import "XHToast.h"
+
+#import <AFNetWorkSDK/AFNetworking.h>
+#import <BXHNetWorkSDK/BXHNetWorkSDK.h>
+#import <IJKMediaFramework/IJKMediaFramework.h>
+
+
+#endif /* BXHLiveVedio_Prefix_h */
+#endif
